@@ -1,0 +1,465 @@
+body {
+  background: url(../image/BetterLimited.png);
+}
+
+/*all page top menu bar start*/
+
+.container {
+  height: 40px;
+  background: white;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  border-bottom: 2px solid grey;
+  vertical-align: top;
+  border-bottom-right-radius: 9px;
+}
+
+.menuLeftButton a:hover {
+  color: goldenrod;
+}
+
+.menuLeftButton {
+  text-align: center;
+  text-shadow: 2px 3px 2px rgba(189, 156, 95, 0.8);
+  font-family: fantasy;
+  font-weight: bold;
+  float: left;
+  color: white;
+  border-style: solid;
+  border-left-width: 0.1vw;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.00000000000000000000001) 26%, rgba(202, 171, 103, 1) 110%)1;
+}
+
+.menuLeftButton a {
+  font-size: 33px;
+  text-align: center;
+  text-shadow: 2px 3px 2px rgba(189, 156, 95, 0.8);
+  font-family: fantasy;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5em;
+  padding-bottom: 0px;
+}
+
+.menuRight {
+  text-align: center;
+  float: right;
+  margin-right: 10px;
+}
+
+.menuRight a {
+  font-size: 22px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid grey;
+  margin-top: 5px;
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 3px;
+}
+
+.menuRight a:hover {
+  background: yellow;
+  border: 2px solid black;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.logo {
+  height: 30px;
+  font-weight: bold;
+  width: auto;
+  margin-left: 10px;
+  margin-top: 5px;
+  float: left;
+}
+
+.logoText {
+  font-size: 30px;
+}
+
+/*all page top menu bar end*/
+
+/*all page left menu bar start*/
+.leftMenu {
+  margin-top: 41px;
+  position: fixed;
+  width: 250px;
+  left: 0;
+  top: 0;
+  background-color: rgb(220, 221, 222);
+  border-right: 2px solid grey;
+  height: 100%;
+}
+
+.leftMenuBtn {
+  padding-left: 30px;
+  padding-top: 5px;
+  font-size: 35px;
+  border-bottom: 2px solid grey;
+}
+
+.dropbtn {
+  padding-left: 0px;
+  width: 252px;
+  padding-top: 5px;
+  font-size: 35px;
+  border: none;
+  border-bottom: 2px solid grey;
+  background: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  margin-left: 60px;
+  min-width: 190px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: yellow;
+  transition: all 0.5s ease-in-out;
+}
+
+.mainDiv {
+  margin-top: 41px;
+  margin-left: 252px;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+
+.main {
+  width: auto;
+  height: 100%;
+}
+
+/*all page left menu bar end*/
+
+/*Login page Start*/
+
+.LoginMainDiv {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.LoginTitle {
+  margin-top: 10%;
+  justify-content: center;
+  text-align: center;
+}
+
+.loginFormDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.loginForm {
+  margin-top: 15%;
+  background-color: white;
+  border-top: 5px solid lightblue;
+  box-shadow: 0px 2px 2px rgb(0 0 0 / 25%);
+  padding: 30px;
+}
+
+.loginLabel {
+  border: 1px solid grey;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 12px;
+}
+
+.textInput {
+  font-size: 18pt;
+  border: none;
+}
+
+.textInput:focus {
+  outline-width: 0;
+}
+
+.loginBtn {
+  width: 100%;
+  height: 33px;
+  background: lightblue;
+  border: none;
+  border-radius: 40px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.loginBtn:hover {
+  background: yellow;
+  border: 2px solid black;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.errorMessage {
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 12px;
+  background-color: rgb(255 0 0 / 25%);
+  font-weight: bold;
+}
+
+/*Login page end*/
+
+/*Insert Item start*/
+.mainInsertItemDiv {
+  display: flex;
+  width: 100%;
+  height: 870px;
+}
+
+.insertItemDiv {
+  margin: 10px;
+  background-color: rgb(0, 0, 0, 0.7);
+  border: 4px solid gold;
+  border-radius: 4px;
+  width: 30%;
+  min-height: 830px;
+
+  display: flex;
+  justify-content: center;
+
+  overflow-y:auto;
+
+}
+
+.insertItemBox {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.label {
+  font-size: 30px;
+  margin: 4px;
+  color: white;
+}
+
+.textBox {
+  font-size: 30px;
+  width: 90%;
+}
+
+.dataSaveInsertDiv {
+  margin: 10px;
+  justify-content: center;
+  background-color: rgb(0, 0, 0, 0.7);
+  border: 4px solid gold;
+  border-radius: 4px;
+  width: 40%;
+  min-height: 700px;
+  padding: 30px;
+
+  overflow-y:auto;
+}
+
+table {
+  font-family: arial, sans-serif;
+  background-color: wheat;
+
+  width: 100%;
+  border-radius: 5px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+
+.dataItemStorgeDiv {
+  margin: 10px;
+  justify-content: center;
+  background-color: rgb(0, 0, 0, 0.7);
+  border: 4px solid gold;
+  border-radius: 4px;
+  width: 40%;
+  min-height: 700px;
+  padding: 30px;
+
+  overflow-y:auto;
+}
+
+.dataSaveForm {
+
+}
+
+.itemButton{
+  margin: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  width: auto;
+  height: 33px;
+  background: wheat;
+  border: none;
+  border-radius: 40px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.itemButton:hover{
+  background: lightblue;
+  transition: all 0.5s ease-in-out;
+}
+
+/*Insert Item end*/
+
+/*Monthly Report start*/
+.mainDivReport {
+  width: 100%;
+  height: 100%;
+  display: grid;
+}
+
+.TopDiv{
+  width: 100%;
+  height: 50%;
+  display: grid;
+
+}
+
+.selectMonth{
+  width: 100%;
+  height: 20%;
+}
+
+.datePicker{
+  background-color: lightblue;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 18px;
+  border: 2px solid blue;
+  outline: none;
+  border-radius: 5px;
+  margin: 10px;"
+}
+
+.TopDiv .staffTableDiv{
+  width: 100%;
+  height: 250px;
+  overflow-y: scroll;
+}
+
+.staffTable{
+  width: 80%;
+  margin-left: 10px;
+  height: auto;
+}
+
+.DownDiv{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.DownDiv .DownLeftDiv{
+  width: 50%;
+  height: auto;
+  display: grid;
+  place-items: center;
+  padding: 50px;
+
+  
+}
+
+.DownDiv .DownLeftDiv .chartTitle{
+  width: 100%;
+  height: 70px;
+  background-color: lightblue;
+  border-top: 4px solid black;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  border-bottom: 2px solid black;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+}
+
+.DownDiv .DownLeftDiv .chartDiv{
+  width: 100%;
+  height: auto;
+  background-color: rgb(0,0,0,50%);
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+}
+
+canvas {
+  margin: auto !important;
+  padding: 50px !important;
+  width:600px !important;
+  height:300px !important;
+}
+
+.DownDiv .DownRightDiv{
+  width: 50%;
+  height: auto;
+  display: grid;
+  padding: 50px;
+}
+
+.DownDiv .DownRightDiv .rankingTitle{
+  width: 100%;
+  height: 70px;
+
+}
+
+.DownDiv .DownRightDiv .ranking{
+  width: 100%;
+  height: 300px;
+}
+
+
+
+
+/*Monthly Report end*/
