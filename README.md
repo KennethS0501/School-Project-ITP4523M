@@ -15,6 +15,8 @@ a. Salesperson can place orders and manage customer accounts.
 
 b. Manager can manage items and review customer’s order.
 
+Compiler: XAMPP
+
 ## **The function that needs to be done will be like the following example on the topic paper:**
 
 Design for Salesperson
